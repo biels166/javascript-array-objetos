@@ -6,9 +6,11 @@ if(nomes.includes("Gabriel") == true){
     {
         if(nomes[i] == "Gabriel"){
             console.log(`Gabriel é o termo ${i+1} da lista.`);
-        }
+         }
     }
 
     console.log("\nTestando com indexOf():\n");
-    console.log(`Gabriel é o ${nomes.indexOf("Gabriel") + 1} da lista.`);
+    console.log(`Lucas é o ${nomes.indexOf("Lucas") + 1} da lista.`);
+} else {
+    console.log("Não encontrado");
 }
