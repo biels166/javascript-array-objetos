@@ -2,4 +2,7 @@ let frase = "Durante muito tempo eu tentei fugir de mim mesmo mas onde eu ia eu 
 
 let palavra = frase.split(" ");
 
-console.log(palavra);
+for(let i = 0; i < palavra.length; i++){
+    console.log(palavra[i]);
+}
+
