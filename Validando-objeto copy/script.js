@@ -5,10 +5,10 @@ if(nomes.includes("Gabriel") == true){
     for(let i= 0; i <= 4; i++)
     {
         if(nomes[i] == "Gabriel"){
-            console.log(`Gabriel é o termo ${i+1} da lista.`);
+            console.log(`Gabriel é o termo ${i+1} da lista`);
         }
     }
 
     console.log("\nTestando com indexOf():\n");
-    console.log(`Gabriel é o ${nomes.indexOf("Gabriel") + 1} da lista.`);
+    console.log(`Gabriel é o ${nomes.indexOf("Gabriel") + 1} da lista`);
 }
